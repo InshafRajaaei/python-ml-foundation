@@ -21,6 +21,7 @@ print(fruits[-1]) # Last item (Negative numbers count from the end)
 # Adding Items
 fruits.append("Orange") # Adds to the end
 fruits.insert(1, "Grape") # Adds at a specific index
+fruits.append("Mango")
 print(fruits)
 
 # Removing Items
@@ -38,8 +39,11 @@ for fruit in fruits:
 # Checking if an item exists
 if "Cherry" in fruits:
     print("Cherry is in the list!")
+
+if "Mango" in fruits:
+    print("Mango is in the list!")
 # Modifying an item
-fruits[0] = "Mango" # Change the first item to Mango
+fruits[0] = "Pine" # Change the first item to Mango
 print(fruits)
 # List Slicing
 print(fruits[0:2]) # Items from index 0 to 1 (2 is excluded)

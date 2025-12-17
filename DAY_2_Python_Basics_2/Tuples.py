@@ -7,7 +7,7 @@ coordinates = (10, 20)
 rgb_color = (255, 0, 0)
 
 print(coordinates[0]) # Accessing items (Indexing)
-coordinates[0] = 15  # This will raise an error because tuples are immutable
+# coordinates[0] = 15   This will raise an error because tuples are immutable
 
 # Tuple Methods
 # Tuples have only two built-in methods: count() and index()

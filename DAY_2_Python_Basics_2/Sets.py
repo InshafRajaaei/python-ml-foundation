@@ -2,7 +2,7 @@
 # syntax to create a set: Curly Braces {}
 # Things that don't change (Unique items, Tags, Categories)
 
-my_set = {1, 2, 3, 4, 5, 5, 5}
+my_set = {1, 2, 3, 4,  5, 5}
 print(my_set) # Output: {1, 2, 3, 4, 5} (duplicates are removed)
 
 # Key Operations
@@ -19,7 +19,9 @@ print(my_set)
 popped_item = my_set.pop() # Removes and returns an arbitrary item
 print("Popped item:", popped_item)
 print(my_set)
-
+popped_item = my_set.pop() # Removes and returns an arbitrary item
+print("Popped item:", popped_item)
+print(my_set)
 # Set Length
 print(len(my_set)) # Number of items in the set
 
